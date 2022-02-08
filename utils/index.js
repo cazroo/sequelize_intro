@@ -1,4 +1,4 @@
-const { Sequelize, Op } = require("sequelize");
+const { Sequelize } = require("sequelize");
 const { Movie } = require("../models/models");
 
 const addMovie = async (movieObj) => {
